@@ -78,6 +78,11 @@
 
 - (UIImage *)blurImage:(UIImage *)originalImage withRadius:(CGFloat)blurRadius {
     
+    if (blurRadius <= 0) {
+        UIImage *theNewImage = [UIImage imageWithCGImage:originalImage.CGImage scale:originalImage.scale orientation:originalImage.imageOrientation];
+        return theNewImage;
+    }
+    
     CIImage *inputImage = [CIImage imageWithCGImage:[originalImage CGImage]];
     [self.blurFilter setValue:inputImage forKey:kCIInputImageKey];
     [self.blurFilter setValue:@(blurRadius) forKey:kCIInputRadiusKey];

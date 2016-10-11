@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cheetah" translatesAutoresizingMaskIntoConstraints="NO" id="zeF-as-kNf" customClass="IBDImageView">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cheetah" translatesAutoresizingMaskIntoConstraints="NO" id="zeF-as-kNf" customClass="IBDImageView">
                                 <frame key="frameInset" minY="-1" maxY="1"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <userDefinedRuntimeAttributes>
@@ -27,7 +27,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cheetah" translatesAutoresizingMaskIntoConstraints="NO" id="wM1-vH-SoJ" customClass="IBDImageView">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cheetah" translatesAutoresizingMaskIntoConstraints="NO" id="wM1-vH-SoJ" customClass="IBDImageView">
                                 <frame key="frameInset" minX="40" width="240" height="129" maxY="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <userDefinedRuntimeAttributes>
@@ -44,9 +44,12 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="blurRadius">
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rotation">
+                                        <real key="value" value="-30"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="6Nl-b8-CXE">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="6Nl-b8-CXE">
                                 <frame key="frameInset" minX="14" height="32" maxX="14" maxY="7"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>

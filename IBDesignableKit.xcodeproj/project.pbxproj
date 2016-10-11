@@ -6,71 +6,112 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		F5B691F91DACBC7A000E7393 /* FrameworkBuilder */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F5B691FA1DACBC7A000E7393 /* Build configuration list for PBXAggregateTarget "FrameworkBuilder" */;
+			buildPhases = (
+				F5B691FD1DACBCA4000E7393 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = FrameworkBuilder;
+			productName = BuildStaticFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		F5C836CF1D9929A90057EB27 /* IBDesignableKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F5C836CE1D9929A90057EB27 /* IBDesignableKit-Prefix.pch */; };
-		F5C837411D99306D0057EB27 /* UIImage+Blur.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837181D99306D0057EB27 /* UIImage+Blur.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837431D99306D0057EB27 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837191D99306D0057EB27 /* UIImage+Blur.m */; };
-		F5C837441D99306D0057EB27 /* UIView+IBDesignable.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8371A1D99306D0057EB27 /* UIView+IBDesignable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837461D99306D0057EB27 /* UIView+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8371B1D99306D0057EB27 /* UIView+IBDesignable.m */; };
-		F5C837471D99306D0057EB27 /* IBDesignableKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8371C1D99306D0057EB27 /* IBDesignableKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837481D99306D0057EB27 /* IBDButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8371E1D99306D0057EB27 /* IBDButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C8374A1D99306D0057EB27 /* IBDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8371F1D99306D0057EB27 /* IBDButton.m */; };
-		F5C8374B1D99306D0057EB27 /* IBDControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837201D99306D0057EB27 /* IBDControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C8374D1D99306D0057EB27 /* IBDControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837211D99306D0057EB27 /* IBDControl.m */; };
-		F5C8374E1D99306D0057EB27 /* IBDSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837221D99306D0057EB27 /* IBDSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837501D99306D0057EB27 /* IBDSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837231D99306D0057EB27 /* IBDSlider.m */; };
-		F5C837511D99306D0057EB27 /* IBDSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837241D99306D0057EB27 /* IBDSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837531D99306D0057EB27 /* IBDSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837251D99306D0057EB27 /* IBDSwitch.m */; };
-		F5C837541D99306D0057EB27 /* IBDTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837261D99306D0057EB27 /* IBDTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837561D99306D0057EB27 /* IBDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837271D99306D0057EB27 /* IBDTextField.m */; };
-		F5C8375A1D99306D0057EB27 /* IBDCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8372B1D99306D0057EB27 /* IBDCollectionReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C8375C1D99306D0057EB27 /* IBDCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8372C1D99306D0057EB27 /* IBDCollectionReusableView.m */; };
-		F5C8375D1D99306D0057EB27 /* IBDCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8372D1D99306D0057EB27 /* IBDCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C8375F1D99306D0057EB27 /* IBDCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8372E1D99306D0057EB27 /* IBDCollectionView.m */; };
-		F5C837601D99306D0057EB27 /* IBDCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8372F1D99306D0057EB27 /* IBDCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837621D99306D0057EB27 /* IBDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837301D99306D0057EB27 /* IBDCollectionViewCell.m */; };
-		F5C837631D99306D0057EB27 /* IBDImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837311D99306D0057EB27 /* IBDImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837651D99306D0057EB27 /* IBDImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837321D99306D0057EB27 /* IBDImageView.m */; };
-		F5C837661D99306D0057EB27 /* IBDLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837331D99306D0057EB27 /* IBDLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837681D99306D0057EB27 /* IBDLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837341D99306D0057EB27 /* IBDLabel.m */; };
-		F5C837691D99306D0057EB27 /* IBDProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837351D99306D0057EB27 /* IBDProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C8376B1D99306D0057EB27 /* IBDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837361D99306D0057EB27 /* IBDProgressView.m */; };
-		F5C8376C1D99306D0057EB27 /* IBDScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837371D99306D0057EB27 /* IBDScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C8376E1D99306D0057EB27 /* IBDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837381D99306D0057EB27 /* IBDScrollView.m */; };
-		F5C8376F1D99306D0057EB27 /* IBDStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837391D99306D0057EB27 /* IBDStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837711D99306D0057EB27 /* IBDStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8373A1D99306D0057EB27 /* IBDStackView.m */; };
-		F5C837721D99306D0057EB27 /* IBDTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8373B1D99306D0057EB27 /* IBDTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837741D99306D0057EB27 /* IBDTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8373C1D99306D0057EB27 /* IBDTableView.m */; };
-		F5C837751D99306D0057EB27 /* IBDTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8373D1D99306D0057EB27 /* IBDTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837771D99306D0057EB27 /* IBDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8373E1D99306D0057EB27 /* IBDTableViewCell.m */; };
-		F5C837781D99306D0057EB27 /* IBDWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8373F1D99306D0057EB27 /* IBDWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C8377A1D99306D0057EB27 /* IBDWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837401D99306D0057EB27 /* IBDWebView.m */; };
-		F5C8377D1D9930A30057EB27 /* IBDTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8377B1D9930A30057EB27 /* IBDTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C8377F1D9930A30057EB27 /* IBDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8377C1D9930A30057EB27 /* IBDTextView.m */; };
-		F5C837821D9930C80057EB27 /* IBDTableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837801D9930C80057EB27 /* IBDTableViewHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C837841D9930C80057EB27 /* IBDTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837811D9930C80057EB27 /* IBDTableViewHeaderFooterView.m */; };
-		F5C837851D9931EA0057EB27 /* IBDesignableKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D1B3E31D97FBBC001F831C /* IBDesignableKit.framework */; };
-		F5C837871D99323C0057EB27 /* IBDesignableKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5D1B3E31D97FBBC001F831C /* IBDesignableKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F50877B51DACCB45004B924C /* UIImage+Blur.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837181D99306D0057EB27 /* UIImage+Blur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877B61DACCB45004B924C /* UIView+IBDesignable.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8371A1D99306D0057EB27 /* UIView+IBDesignable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877B71DACCB45004B924C /* IBDButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8371E1D99306D0057EB27 /* IBDButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877B81DACCB45004B924C /* IBDControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837201D99306D0057EB27 /* IBDControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877B91DACCB45004B924C /* IBDSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837221D99306D0057EB27 /* IBDSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877BA1DACCB45004B924C /* IBDSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837241D99306D0057EB27 /* IBDSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877BB1DACCB45004B924C /* IBDTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837261D99306D0057EB27 /* IBDTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877BC1DACCB45004B924C /* IBDCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8372B1D99306D0057EB27 /* IBDCollectionReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877BD1DACCB45004B924C /* IBDCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8372D1D99306D0057EB27 /* IBDCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877BE1DACCB45004B924C /* IBDCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8372F1D99306D0057EB27 /* IBDCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877BF1DACCB45004B924C /* IBDImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837311D99306D0057EB27 /* IBDImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877C01DACCB45004B924C /* IBDLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837331D99306D0057EB27 /* IBDLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877C11DACCB45004B924C /* IBDProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837351D99306D0057EB27 /* IBDProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877C21DACCB45004B924C /* IBDScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837371D99306D0057EB27 /* IBDScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877C31DACCB45004B924C /* IBDStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837391D99306D0057EB27 /* IBDStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877C41DACCB45004B924C /* IBDTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8373B1D99306D0057EB27 /* IBDTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877C51DACCB45004B924C /* IBDTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8373D1D99306D0057EB27 /* IBDTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877C61DACCB45004B924C /* IBDTableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837801D9930C80057EB27 /* IBDTableViewHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877C71DACCB45004B924C /* IBDWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8373F1D99306D0057EB27 /* IBDWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50877C81DACCB45004B924C /* IBDTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8377B1D9930A30057EB27 /* IBDTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B691FE1DACBCCC000E7393 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837191D99306D0057EB27 /* UIImage+Blur.m */; };
+		F5B691FF1DACBCCC000E7393 /* UIView+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8371B1D99306D0057EB27 /* UIView+IBDesignable.m */; };
+		F5B692001DACBCCC000E7393 /* IBDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8371F1D99306D0057EB27 /* IBDButton.m */; };
+		F5B692011DACBCCC000E7393 /* IBDControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837211D99306D0057EB27 /* IBDControl.m */; };
+		F5B692021DACBCCC000E7393 /* IBDSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837231D99306D0057EB27 /* IBDSlider.m */; };
+		F5B692031DACBCCC000E7393 /* IBDSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837251D99306D0057EB27 /* IBDSwitch.m */; };
+		F5B692041DACBCCC000E7393 /* IBDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837271D99306D0057EB27 /* IBDTextField.m */; };
+		F5B692051DACBCCC000E7393 /* IBDCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8372C1D99306D0057EB27 /* IBDCollectionReusableView.m */; };
+		F5B692061DACBCCC000E7393 /* IBDCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8372E1D99306D0057EB27 /* IBDCollectionView.m */; };
+		F5B692071DACBCCC000E7393 /* IBDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837301D99306D0057EB27 /* IBDCollectionViewCell.m */; };
+		F5B692081DACBCCC000E7393 /* IBDImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837321D99306D0057EB27 /* IBDImageView.m */; };
+		F5B692091DACBCCC000E7393 /* IBDLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837341D99306D0057EB27 /* IBDLabel.m */; };
+		F5B6920A1DACBCCC000E7393 /* IBDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837361D99306D0057EB27 /* IBDProgressView.m */; };
+		F5B6920B1DACBCCC000E7393 /* IBDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837381D99306D0057EB27 /* IBDScrollView.m */; };
+		F5B6920C1DACBCCC000E7393 /* IBDStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8373A1D99306D0057EB27 /* IBDStackView.m */; };
+		F5B6920D1DACBCCC000E7393 /* IBDTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8373C1D99306D0057EB27 /* IBDTableView.m */; };
+		F5B6920E1DACBCCC000E7393 /* IBDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8373E1D99306D0057EB27 /* IBDTableViewCell.m */; };
+		F5B6920F1DACBCCC000E7393 /* IBDTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837811D9930C80057EB27 /* IBDTableViewHeaderFooterView.m */; };
+		F5B692101DACBCCC000E7393 /* IBDWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837401D99306D0057EB27 /* IBDWebView.m */; };
+		F5B692111DACBCCC000E7393 /* IBDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8377C1D9930A30057EB27 /* IBDTextView.m */; };
+		F5B692361DACC3D9000E7393 /* IBDesignableKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8371C1D99306D0057EB27 /* IBDesignableKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692371DACC3D9000E7393 /* UIImage+Blur.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837181D99306D0057EB27 /* UIImage+Blur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692381DACC3D9000E7393 /* UIView+IBDesignable.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8371A1D99306D0057EB27 /* UIView+IBDesignable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692391DACC3D9000E7393 /* IBDButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8371E1D99306D0057EB27 /* IBDButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B6923A1DACC3D9000E7393 /* IBDControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837201D99306D0057EB27 /* IBDControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B6923B1DACC3D9000E7393 /* IBDSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837221D99306D0057EB27 /* IBDSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B6923C1DACC3D9000E7393 /* IBDSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837241D99306D0057EB27 /* IBDSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B6923D1DACC3D9000E7393 /* IBDTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837261D99306D0057EB27 /* IBDTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B6923E1DACC3D9000E7393 /* IBDCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8372B1D99306D0057EB27 /* IBDCollectionReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B6923F1DACC3D9000E7393 /* IBDCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8372D1D99306D0057EB27 /* IBDCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692401DACC3D9000E7393 /* IBDCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8372F1D99306D0057EB27 /* IBDCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692411DACC3D9000E7393 /* IBDImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837311D99306D0057EB27 /* IBDImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692421DACC3D9000E7393 /* IBDLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837331D99306D0057EB27 /* IBDLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692431DACC3D9000E7393 /* IBDProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837351D99306D0057EB27 /* IBDProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692441DACC3D9000E7393 /* IBDScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837371D99306D0057EB27 /* IBDScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692451DACC3D9000E7393 /* IBDStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837391D99306D0057EB27 /* IBDStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692461DACC3D9000E7393 /* IBDTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8373B1D99306D0057EB27 /* IBDTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692471DACC3D9000E7393 /* IBDTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8373D1D99306D0057EB27 /* IBDTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692481DACC3D9000E7393 /* IBDTableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C837801D9930C80057EB27 /* IBDTableViewHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B692491DACC3D9000E7393 /* IBDWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8373F1D99306D0057EB27 /* IBDWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B6924A1DACC3D9000E7393 /* IBDTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C8377B1D9930A30057EB27 /* IBDTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B6924B1DACC3EC000E7393 /* IBDesignableKit-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = F5C836CE1D9929A90057EB27 /* IBDesignableKit-Prefix.pch */; };
+		F5B6924C1DACC41E000E7393 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837191D99306D0057EB27 /* UIImage+Blur.m */; };
+		F5B6924D1DACC41E000E7393 /* UIView+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8371B1D99306D0057EB27 /* UIView+IBDesignable.m */; };
+		F5B6924E1DACC41E000E7393 /* IBDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8371F1D99306D0057EB27 /* IBDButton.m */; };
+		F5B6924F1DACC41E000E7393 /* IBDControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837211D99306D0057EB27 /* IBDControl.m */; };
+		F5B692501DACC41E000E7393 /* IBDSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837231D99306D0057EB27 /* IBDSlider.m */; };
+		F5B692511DACC41E000E7393 /* IBDSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837251D99306D0057EB27 /* IBDSwitch.m */; };
+		F5B692521DACC41E000E7393 /* IBDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837271D99306D0057EB27 /* IBDTextField.m */; };
+		F5B692531DACC41E000E7393 /* IBDCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8372C1D99306D0057EB27 /* IBDCollectionReusableView.m */; };
+		F5B692541DACC41E000E7393 /* IBDCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8372E1D99306D0057EB27 /* IBDCollectionView.m */; };
+		F5B692551DACC41E000E7393 /* IBDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837301D99306D0057EB27 /* IBDCollectionViewCell.m */; };
+		F5B692561DACC41E000E7393 /* IBDImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837321D99306D0057EB27 /* IBDImageView.m */; };
+		F5B692571DACC41E000E7393 /* IBDLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837341D99306D0057EB27 /* IBDLabel.m */; };
+		F5B692581DACC41E000E7393 /* IBDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837361D99306D0057EB27 /* IBDProgressView.m */; };
+		F5B692591DACC41E000E7393 /* IBDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837381D99306D0057EB27 /* IBDScrollView.m */; };
+		F5B6925A1DACC41E000E7393 /* IBDStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8373A1D99306D0057EB27 /* IBDStackView.m */; };
+		F5B6925B1DACC41E000E7393 /* IBDTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8373C1D99306D0057EB27 /* IBDTableView.m */; };
+		F5B6925C1DACC41E000E7393 /* IBDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8373E1D99306D0057EB27 /* IBDTableViewCell.m */; };
+		F5B6925D1DACC41E000E7393 /* IBDTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837811D9930C80057EB27 /* IBDTableViewHeaderFooterView.m */; };
+		F5B6925E1DACC41E000E7393 /* IBDWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C837401D99306D0057EB27 /* IBDWebView.m */; };
+		F5B6925F1DACC41E000E7393 /* IBDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8377C1D9930A30057EB27 /* IBDTextView.m */; };
 		F5D1B3FD1D97FD2B001F831C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B3ED1D97FD2B001F831C /* AppDelegate.m */; };
 		F5D1B3FE1D97FD2B001F831C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D1B3EE1D97FD2B001F831C /* Assets.xcassets */; };
 		F5D1B3FF1D97FD2B001F831C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D1B3EF1D97FD2B001F831C /* LaunchScreen.storyboard */; };
 		F5D1B4001D97FD2B001F831C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D1B3F11D97FD2B001F831C /* Main.storyboard */; };
 		F5D1B4011D97FD2B001F831C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B3F61D97FD2B001F831C /* ViewController.m */; };
-		F5D1B4021D97FD2B001F831C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5D1B3F91D97FD2B001F831C /* Info.plist */; };
 		F5D1B4031D97FD2B001F831C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D1B3FA1D97FD2B001F831C /* main.m */; };
 		F5D1B4041D97FD2B001F831C /* cheetah1136.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D1B3FC1D97FD2B001F831C /* cheetah1136.png */; };
-		F5D1B4151D97FD3E001F831C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5D1B40C1D97FD3E001F831C /* Info.plist */; };
+		F5DC83631DACF82B00852655 /* libIBDesignableStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B691F01DACBBFE000E7393 /* libIBDesignableStaticLib.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F5C837881D99323C0057EB27 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F5D1B3BC1D97FAE6001F831C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F5D1B3E21D97FBBC001F831C;
-			remoteInfo = IBDesignableKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F5C8378A1D99323D0057EB27 /* Embed Frameworks */ = {
@@ -79,7 +120,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F5C837871D99323C0057EB27 /* IBDesignableKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +127,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F5B691F01DACBBFE000E7393 /* libIBDesignableStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIBDesignableStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B6922F1DACC336000E7393 /* IBDesignableKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBDesignableKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C836CE1D9929A90057EB27 /* IBDesignableKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IBDesignableKit-Prefix.pch"; sourceTree = "<group>"; };
 		F5C837181D99306D0057EB27 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
 		F5C837191D99306D0057EB27 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
@@ -130,7 +172,6 @@
 		F5C837801D9930C80057EB27 /* IBDTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBDTableViewHeaderFooterView.h; sourceTree = "<group>"; };
 		F5C837811D9930C80057EB27 /* IBDTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBDTableViewHeaderFooterView.m; sourceTree = "<group>"; };
 		F5D1B3C41D97FAE6001F831C /* IBDesignableKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBDesignableKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5D1B3E31D97FBBC001F831C /* IBDesignableKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBDesignableKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D1B3EC1D97FD2B001F831C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5D1B3ED1D97FD2B001F831C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F5D1B3EE1D97FD2B001F831C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,18 +186,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F5B691ED1DACBBFE000E7393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B6922C1DACC336000E7393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5D1B3C11D97FAE6001F831C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C837851D9931EA0057EB27 /* IBDesignableKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5D1B3DF1D97FBBC001F831C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F5DC83631DACF82B00852655 /* libIBDesignableStaticLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +305,8 @@
 			isa = PBXGroup;
 			children = (
 				F5D1B3C41D97FAE6001F831C /* IBDesignableKitDemo.app */,
-				F5D1B3E31D97FBBC001F831C /* IBDesignableKit.framework */,
+				F5B691F01DACBBFE000E7393 /* libIBDesignableStaticLib.a */,
+				F5B6922F1DACC336000E7393 /* IBDesignableKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -331,38 +380,100 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F5D1B3E01D97FBBC001F831C /* Headers */ = {
+		F50877B41DACCB39004B924C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C837471D99306D0057EB27 /* IBDesignableKit.h in Headers */,
-				F5C837631D99306D0057EB27 /* IBDImageView.h in Headers */,
-				F5C836CF1D9929A90057EB27 /* IBDesignableKit-Prefix.pch in Headers */,
-				F5C837821D9930C80057EB27 /* IBDTableViewHeaderFooterView.h in Headers */,
-				F5C837601D99306D0057EB27 /* IBDCollectionViewCell.h in Headers */,
-				F5C837661D99306D0057EB27 /* IBDLabel.h in Headers */,
-				F5C837691D99306D0057EB27 /* IBDProgressView.h in Headers */,
-				F5C837511D99306D0057EB27 /* IBDSwitch.h in Headers */,
-				F5C8375A1D99306D0057EB27 /* IBDCollectionReusableView.h in Headers */,
-				F5C837481D99306D0057EB27 /* IBDButton.h in Headers */,
-				F5C8377D1D9930A30057EB27 /* IBDTextView.h in Headers */,
-				F5C8374E1D99306D0057EB27 /* IBDSlider.h in Headers */,
-				F5C8376C1D99306D0057EB27 /* IBDScrollView.h in Headers */,
-				F5C8375D1D99306D0057EB27 /* IBDCollectionView.h in Headers */,
-				F5C837411D99306D0057EB27 /* UIImage+Blur.h in Headers */,
-				F5C8376F1D99306D0057EB27 /* IBDStackView.h in Headers */,
-				F5C837541D99306D0057EB27 /* IBDTextField.h in Headers */,
-				F5C837721D99306D0057EB27 /* IBDTableView.h in Headers */,
-				F5C8374B1D99306D0057EB27 /* IBDControl.h in Headers */,
-				F5C837751D99306D0057EB27 /* IBDTableViewCell.h in Headers */,
-				F5C837441D99306D0057EB27 /* UIView+IBDesignable.h in Headers */,
-				F5C837781D99306D0057EB27 /* IBDWebView.h in Headers */,
+				F50877B61DACCB45004B924C /* UIView+IBDesignable.h in Headers */,
+				F50877C71DACCB45004B924C /* IBDWebView.h in Headers */,
+				F50877C81DACCB45004B924C /* IBDTextView.h in Headers */,
+				F50877BE1DACCB45004B924C /* IBDCollectionViewCell.h in Headers */,
+				F50877B71DACCB45004B924C /* IBDButton.h in Headers */,
+				F50877C11DACCB45004B924C /* IBDProgressView.h in Headers */,
+				F50877BC1DACCB45004B924C /* IBDCollectionReusableView.h in Headers */,
+				F50877C31DACCB45004B924C /* IBDStackView.h in Headers */,
+				F50877C41DACCB45004B924C /* IBDTableView.h in Headers */,
+				F50877BB1DACCB45004B924C /* IBDTextField.h in Headers */,
+				F50877B81DACCB45004B924C /* IBDControl.h in Headers */,
+				F50877BF1DACCB45004B924C /* IBDImageView.h in Headers */,
+				F50877C21DACCB45004B924C /* IBDScrollView.h in Headers */,
+				F50877C61DACCB45004B924C /* IBDTableViewHeaderFooterView.h in Headers */,
+				F50877B91DACCB45004B924C /* IBDSlider.h in Headers */,
+				F50877C51DACCB45004B924C /* IBDTableViewCell.h in Headers */,
+				F50877BA1DACCB45004B924C /* IBDSwitch.h in Headers */,
+				F50877BD1DACCB45004B924C /* IBDCollectionView.h in Headers */,
+				F50877B51DACCB45004B924C /* UIImage+Blur.h in Headers */,
+				F50877C01DACCB45004B924C /* IBDLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B692351DACC3CA000E7393 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B692391DACC3D9000E7393 /* IBDButton.h in Headers */,
+				F5B692411DACC3D9000E7393 /* IBDImageView.h in Headers */,
+				F5B692441DACC3D9000E7393 /* IBDScrollView.h in Headers */,
+				F5B692421DACC3D9000E7393 /* IBDLabel.h in Headers */,
+				F5B692451DACC3D9000E7393 /* IBDStackView.h in Headers */,
+				F5B692361DACC3D9000E7393 /* IBDesignableKit.h in Headers */,
+				F5B692431DACC3D9000E7393 /* IBDProgressView.h in Headers */,
+				F5B6923E1DACC3D9000E7393 /* IBDCollectionReusableView.h in Headers */,
+				F5B6923F1DACC3D9000E7393 /* IBDCollectionView.h in Headers */,
+				F5B6924A1DACC3D9000E7393 /* IBDTextView.h in Headers */,
+				F5B6923A1DACC3D9000E7393 /* IBDControl.h in Headers */,
+				F5B692371DACC3D9000E7393 /* UIImage+Blur.h in Headers */,
+				F5B692461DACC3D9000E7393 /* IBDTableView.h in Headers */,
+				F5B692401DACC3D9000E7393 /* IBDCollectionViewCell.h in Headers */,
+				F5B6923D1DACC3D9000E7393 /* IBDTextField.h in Headers */,
+				F5B692471DACC3D9000E7393 /* IBDTableViewCell.h in Headers */,
+				F5B692381DACC3D9000E7393 /* UIView+IBDesignable.h in Headers */,
+				F5B6923C1DACC3D9000E7393 /* IBDSwitch.h in Headers */,
+				F5B6923B1DACC3D9000E7393 /* IBDSlider.h in Headers */,
+				F5B692491DACC3D9000E7393 /* IBDWebView.h in Headers */,
+				F5B692481DACC3D9000E7393 /* IBDTableViewHeaderFooterView.h in Headers */,
+				F5B6924B1DACC3EC000E7393 /* IBDesignableKit-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		F5B691EF1DACBBFE000E7393 /* IBDesignableStaticLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B691F81DACBBFF000E7393 /* Build configuration list for PBXNativeTarget "IBDesignableStaticLib" */;
+			buildPhases = (
+				F5B691EC1DACBBFE000E7393 /* Sources */,
+				F5B691ED1DACBBFE000E7393 /* Frameworks */,
+				F50877B41DACCB39004B924C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBDesignableStaticLib;
+			productName = IBDesignableStaticLib;
+			productReference = F5B691F01DACBBFE000E7393 /* libIBDesignableStaticLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5B6922E1DACC336000E7393 /* IBDesignableKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B692321DACC336000E7393 /* Build configuration list for PBXNativeTarget "IBDesignableKit" */;
+			buildPhases = (
+				F5B6922B1DACC336000E7393 /* Sources */,
+				F5B6922C1DACC336000E7393 /* Frameworks */,
+				F5B6922D1DACC336000E7393 /* Resources */,
+				F5B692351DACC3CA000E7393 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBDesignableKit;
+			productName = IBDesignableKit;
+			productReference = F5B6922F1DACC336000E7393 /* IBDesignableKit.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
 		F5D1B3C31D97FAE6001F831C /* IBDesignableKitDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5D1B3DB1D97FAE6001F831C /* Build configuration list for PBXNativeTarget "IBDesignableKitDemo" */;
@@ -375,30 +486,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				F5C837891D99323C0057EB27 /* PBXTargetDependency */,
 			);
 			name = IBDesignableKitDemo;
 			productName = IBDesignableKit;
 			productReference = F5D1B3C41D97FAE6001F831C /* IBDesignableKitDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F5D1B3E21D97FBBC001F831C /* IBDesignableKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F5D1B3E81D97FBBC001F831C /* Build configuration list for PBXNativeTarget "IBDesignableKit" */;
-			buildPhases = (
-				F5D1B3DE1D97FBBC001F831C /* Sources */,
-				F5D1B3DF1D97FBBC001F831C /* Frameworks */,
-				F5D1B3E01D97FBBC001F831C /* Headers */,
-				F5D1B3E11D97FBBC001F831C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = IBDesignableKit;
-			productName = IBDesignableKit;
-			productReference = F5D1B3E31D97FBBC001F831C /* IBDesignableKit.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -410,12 +502,19 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "陈杰";
 				TargetAttributes = {
-					F5D1B3C31D97FAE6001F831C = {
+					F5B691EF1DACBBFE000E7393 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = FL9S7ZVF95;
 						ProvisioningStyle = Automatic;
 					};
-					F5D1B3E21D97FBBC001F831C = {
+					F5B691F91DACBC7A000E7393 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F5B6922E1DACC336000E7393 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F5D1B3C31D97FAE6001F831C = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = FL9S7ZVF95;
 						ProvisioningStyle = Automatic;
@@ -436,17 +535,25 @@
 			projectRoot = "";
 			targets = (
 				F5D1B3C31D97FAE6001F831C /* IBDesignableKitDemo */,
-				F5D1B3E21D97FBBC001F831C /* IBDesignableKit */,
+				F5B691EF1DACBBFE000E7393 /* IBDesignableStaticLib */,
+				F5B6922E1DACC336000E7393 /* IBDesignableKit */,
+				F5B691F91DACBC7A000E7393 /* FrameworkBuilder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F5B6922D1DACC336000E7393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5D1B3C21D97FAE6001F831C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D1B4021D97FD2B001F831C /* Info.plist in Resources */,
 				F5D1B4001D97FD2B001F831C /* Main.storyboard in Resources */,
 				F5D1B4041D97FD2B001F831C /* cheetah1136.png in Resources */,
 				F5D1B3FE1D97FD2B001F831C /* Assets.xcassets in Resources */,
@@ -454,17 +561,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5D1B3E11D97FBBC001F831C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5B691FD1DACBCA4000E7393 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D1B4151D97FD3E001F831C /* Info.plist in Resources */,
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -o errexit\n# Sets the target folders and the final framework product.\nFMK_NAME=${PROJECT_NAME}\nFMK_VERSION=A\n#FMK_RESOURCE_NAME=BrowserResource\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Framework/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=\"${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\"\nSIMULATOR_DIR=\"${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\"\nRESOURCE_DIR=\"${WRK_DIR}/Release-iphoneos\"\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n#xcodebuild -configuration \"Release\" -target \"${FMK_RESOURCE_NAME}\" -sdk iphoneos\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n#cp -R \"${RESOURCE_DIR}/${FMK_RESOURCE_NAME}.bundle\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv7/armv7s) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\"\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B691EC1DACBBFE000E7393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B691FE1DACBCCC000E7393 /* UIImage+Blur.m in Sources */,
+				F5B6920A1DACBCCC000E7393 /* IBDProgressView.m in Sources */,
+				F5B6920F1DACBCCC000E7393 /* IBDTableViewHeaderFooterView.m in Sources */,
+				F5B692111DACBCCC000E7393 /* IBDTextView.m in Sources */,
+				F5B692101DACBCCC000E7393 /* IBDWebView.m in Sources */,
+				F5B6920B1DACBCCC000E7393 /* IBDScrollView.m in Sources */,
+				F5B692041DACBCCC000E7393 /* IBDTextField.m in Sources */,
+				F5B692081DACBCCC000E7393 /* IBDImageView.m in Sources */,
+				F5B692051DACBCCC000E7393 /* IBDCollectionReusableView.m in Sources */,
+				F5B692001DACBCCC000E7393 /* IBDButton.m in Sources */,
+				F5B692091DACBCCC000E7393 /* IBDLabel.m in Sources */,
+				F5B692031DACBCCC000E7393 /* IBDSwitch.m in Sources */,
+				F5B6920C1DACBCCC000E7393 /* IBDStackView.m in Sources */,
+				F5B692021DACBCCC000E7393 /* IBDSlider.m in Sources */,
+				F5B692011DACBCCC000E7393 /* IBDControl.m in Sources */,
+				F5B692071DACBCCC000E7393 /* IBDCollectionViewCell.m in Sources */,
+				F5B6920D1DACBCCC000E7393 /* IBDTableView.m in Sources */,
+				F5B6920E1DACBCCC000E7393 /* IBDTableViewCell.m in Sources */,
+				F5B692061DACBCCC000E7393 /* IBDCollectionView.m in Sources */,
+				F5B691FF1DACBCCC000E7393 /* UIView+IBDesignable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
+		F5B6922B1DACC336000E7393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B6925A1DACC41E000E7393 /* IBDStackView.m in Sources */,
+				F5B692571DACC41E000E7393 /* IBDLabel.m in Sources */,
+				F5B6924C1DACC41E000E7393 /* UIImage+Blur.m in Sources */,
+				F5B6925C1DACC41E000E7393 /* IBDTableViewCell.m in Sources */,
+				F5B6925E1DACC41E000E7393 /* IBDWebView.m in Sources */,
+				F5B692511DACC41E000E7393 /* IBDSwitch.m in Sources */,
+				F5B6924E1DACC41E000E7393 /* IBDButton.m in Sources */,
+				F5B6925F1DACC41E000E7393 /* IBDTextView.m in Sources */,
+				F5B692561DACC41E000E7393 /* IBDImageView.m in Sources */,
+				F5B6924D1DACC41E000E7393 /* UIView+IBDesignable.m in Sources */,
+				F5B692541DACC41E000E7393 /* IBDCollectionView.m in Sources */,
+				F5B692501DACC41E000E7393 /* IBDSlider.m in Sources */,
+				F5B692551DACC41E000E7393 /* IBDCollectionViewCell.m in Sources */,
+				F5B6924F1DACC41E000E7393 /* IBDControl.m in Sources */,
+				F5B6925D1DACC41E000E7393 /* IBDTableViewHeaderFooterView.m in Sources */,
+				F5B6925B1DACC41E000E7393 /* IBDTableView.m in Sources */,
+				F5B692521DACC41E000E7393 /* IBDTextField.m in Sources */,
+				F5B692591DACC41E000E7393 /* IBDScrollView.m in Sources */,
+				F5B692531DACC41E000E7393 /* IBDCollectionReusableView.m in Sources */,
+				F5B692581DACC41E000E7393 /* IBDProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F5D1B3C01D97FAE6001F831C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -475,42 +644,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5D1B3DE1D97FBBC001F831C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5C837431D99306D0057EB27 /* UIImage+Blur.m in Sources */,
-				F5C8376B1D99306D0057EB27 /* IBDProgressView.m in Sources */,
-				F5C8376E1D99306D0057EB27 /* IBDScrollView.m in Sources */,
-				F5C837531D99306D0057EB27 /* IBDSwitch.m in Sources */,
-				F5C8377A1D99306D0057EB27 /* IBDWebView.m in Sources */,
-				F5C837651D99306D0057EB27 /* IBDImageView.m in Sources */,
-				F5C8375C1D99306D0057EB27 /* IBDCollectionReusableView.m in Sources */,
-				F5C8374A1D99306D0057EB27 /* IBDButton.m in Sources */,
-				F5C837681D99306D0057EB27 /* IBDLabel.m in Sources */,
-				F5C8377F1D9930A30057EB27 /* IBDTextView.m in Sources */,
-				F5C837461D99306D0057EB27 /* UIView+IBDesignable.m in Sources */,
-				F5C837711D99306D0057EB27 /* IBDStackView.m in Sources */,
-				F5C837501D99306D0057EB27 /* IBDSlider.m in Sources */,
-				F5C8374D1D99306D0057EB27 /* IBDControl.m in Sources */,
-				F5C837621D99306D0057EB27 /* IBDCollectionViewCell.m in Sources */,
-				F5C837741D99306D0057EB27 /* IBDTableView.m in Sources */,
-				F5C837561D99306D0057EB27 /* IBDTextField.m in Sources */,
-				F5C837771D99306D0057EB27 /* IBDTableViewCell.m in Sources */,
-				F5C837841D9930C80057EB27 /* IBDTableViewHeaderFooterView.m in Sources */,
-				F5C8375F1D99306D0057EB27 /* IBDCollectionView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F5C837891D99323C0057EB27 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F5D1B3E21D97FBBC001F831C /* IBDesignableKit */;
-			targetProxy = F5C837881D99323C0057EB27 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F5D1B3EF1D97FD2B001F831C /* LaunchScreen.storyboard */ = {
@@ -532,6 +666,104 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F5B691F61DACBBFF000E7393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F5B691F71DACBBFF000E7393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F5B691FB1DACBC7A000E7393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5B691FC1DACBC7A000E7393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5B692331DACC336000E7393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = IBDesignableKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lafonapps.IBDesignableKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		F5B692341DACC336000E7393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = IBDesignableKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lafonapps.IBDesignableKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
 		F5D1B3D91D97FAE6001F831C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -627,7 +859,8 @@
 				DEVELOPMENT_TEAM = FL9S7ZVF95;
 				INFOPLIST_FILE = IBDesignableKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lafonapps.IBDesignableKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -640,63 +873,43 @@
 				DEVELOPMENT_TEAM = FL9S7ZVF95;
 				INFOPLIST_FILE = IBDesignableKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lafonapps.IBDesignableKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F5D1B3E91D97FBBC001F831C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = FL9S7ZVF95;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "IBDesignableKit/IBDesignableKit-Prefix.pch";
-				INFOPLIST_FILE = IBDesignableKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lafonapps.IBDesignableKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F5D1B3EA1D97FBBC001F831C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = FL9S7ZVF95;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "IBDesignableKit/IBDesignableKit-Prefix.pch";
-				INFOPLIST_FILE = IBDesignableKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lafonapps.IBDesignableKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F5B691F81DACBBFF000E7393 /* Build configuration list for PBXNativeTarget "IBDesignableStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B691F61DACBBFF000E7393 /* Debug */,
+				F5B691F71DACBBFF000E7393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B691FA1DACBC7A000E7393 /* Build configuration list for PBXAggregateTarget "FrameworkBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B691FB1DACBC7A000E7393 /* Debug */,
+				F5B691FC1DACBC7A000E7393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B692321DACC336000E7393 /* Build configuration list for PBXNativeTarget "IBDesignableKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B692331DACC336000E7393 /* Debug */,
+				F5B692341DACC336000E7393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F5D1B3BF1D97FAE6001F831C /* Build configuration list for PBXProject "IBDesignableKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -711,15 +924,6 @@
 			buildConfigurations = (
 				F5D1B3DC1D97FAE6001F831C /* Debug */,
 				F5D1B3DD1D97FAE6001F831C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F5D1B3E81D97FBBC001F831C /* Build configuration list for PBXNativeTarget "IBDesignableKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F5D1B3E91D97FBBC001F831C /* Debug */,
-				F5D1B3EA1D97FBBC001F831C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

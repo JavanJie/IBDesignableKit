@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5B6922E1DACC336000E7393"
-               BuildableName = "IBDesignableKit.framework"
-               BlueprintName = "IBDesignableKit"
+               BlueprintIdentifier = "F5B691F91DACBC7A000E7393"
+               BuildableName = "FrameworkBuilder"
+               BlueprintName = "FrameworkBuilder"
                ReferencedContainer = "container:IBDesignableKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,7 +33,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F5B6922E1DACC336000E7393"
-            BuildableName = "IBDesignableKit.framework"
-            BlueprintName = "IBDesignableKit"
+            BlueprintIdentifier = "F5B691F91DACBC7A000E7393"
+            BuildableName = "FrameworkBuilder"
+            BlueprintName = "FrameworkBuilder"
             ReferencedContainer = "container:IBDesignableKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F5B6922E1DACC336000E7393"
-            BuildableName = "IBDesignableKit.framework"
-            BlueprintName = "IBDesignableKit"
+            BlueprintIdentifier = "F5B691F91DACBC7A000E7393"
+            BuildableName = "FrameworkBuilder"
+            BlueprintName = "FrameworkBuilder"
             ReferencedContainer = "container:IBDesignableKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

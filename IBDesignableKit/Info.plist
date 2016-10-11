@@ -13,14 +13,14 @@
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
-	<string>FMWK</string>
+	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016年 陈杰. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 </dict>
 </plist>
